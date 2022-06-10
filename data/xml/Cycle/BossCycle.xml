@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BossCycleList>
+	<!-- Baseは基準日を指定する場合に使用。省略時はDate=サーバ起動日,Time=0:00 -->
+	<!-- Cycleは周期を指定する。(それぞれ日、時、分の組み合わせで指定可能)  -->
+	<!-- Periodのみ必須。省略時はStart=0,End=Periodと同値 -->
+	<!-- サンプル
+		<BossCycle Name="Sample1">
+			<Base Date="2008/5/18" Time="0:00" />
+			<Cycle Period="1d2h31m" Start="3h30m" End="1d5m" />
+		</BossCycle>
+	-->
+
+	<BossCycle Name="DK">
+		<Cycle Period="7h" />
+	</BossCycle>
+	<BossCycle Name="Oren">
+		<Cycle Period="5h" />
+	</BossCycle>
+	<BossCycle Name="Aden">
+		<Cycle Period="4h" />
+	</BossCycle>
+	<BossCycle Name="Caspa">
+		<Cycle Period="1h"/>
+	</BossCycle>
+	<BossCycle Name="1Drake">
+		<Cycle Period="2h"/>
+	</BossCycle>
+	<BossCycle Name="2Drake">
+		<Cycle Period="3h"/>
+	</BossCycle>
+	<BossCycle Name="Night">
+		<Cycle Period="4h"/>
+	</BossCycle>
+	<BossCycle Name="Dragon">
+		<Cycle Period="1d"/>
+	</BossCycle>
+	<BossCycle Name="etc1">
+		<Cycle Period="10m" />
+	</BossCycle>
+	<BossCycle Name="Unknown">
+		<Cycle Period="7h"/>
+	</BossCycle>
+</BossCycleList>
